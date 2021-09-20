@@ -14,6 +14,6 @@ print(type(num))
 print(type('str'))
 
 # 型変換 float -> int
-floatNum = 10.1
-changeInt = int(floatNum)
+float_num = 10.1
+change_int = int(float_num)
 print(changeInt)
