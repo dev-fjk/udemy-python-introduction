@@ -42,3 +42,6 @@ print(band_members)
 print(band_members.keys())
 print(band_members.values())
 print(band_members.items())
+
+band_members['ボーカル'] = 'フレディ'
+print(band_members)
