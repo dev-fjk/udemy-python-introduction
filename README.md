@@ -6,4 +6,4 @@ Python + Djangoの基礎を学べる講座の実装保存用リポジトリ
 
 ## リンク
 [Python チュートリアル](https://docs.python.org/ja/3/tutorial/)  
-[DIVER](https://docs.python.org/ja/3/tutorial/)  
+[DIVER](https://diver.diveintocode.jp/dive_into_exam/lp)  
