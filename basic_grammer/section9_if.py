@@ -14,11 +14,11 @@ elif color == 'blue':
 else:
     print('else')
 
-# javaとの対照表
+# javaとの対照表 (java = python)
 # && = and
 # || = or
 # != = not
-# in = contains
+# contains = in
 
 # 空文字などを除きオブジェクト単体を渡してもtrueとなるので注意(逆に言うとnull/空チェック頑張らなくていい)
 numbers = [1, 2]
