@@ -29,3 +29,10 @@ for i in range(1, 101):
     # end=文字列で改行しないことができる
     # messageが空文字でない場合は messageを 空文字の場合は数字を出力する
     print(message or i, end='　')
+
+# 内包表記を使った例
+# trueは 1 , falseは0にできる 文字列に0を掛けると空文字扱いになることを利用したテク
+fizz_buzz_list = ['Fizz' * (num % 3 == 0) + 'Buzz' * (num % 5 == 0)
+                  or str(num) for num in range(1, 101)]
+result = ''.join(fizz_buzz_list)
+print(fizz_buzz_list)
